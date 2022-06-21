@@ -1,12 +1,16 @@
 import React from "react";
 import Region from "./components/Region";
-import Footer from "./components/share/Footer";
-import Header from "./components/share/Header";
+import Footer from "./layouts/Footer";
+import Header from "./layouts/Header";
 function App() {
   return (
     <div className="">
       <Header />
-      <Region />
+      <Region name="Afrique" regionUrl="africa" />
+      <Region name="Amerérique" regionUrl="americas" />
+      <Region name="Asie" regionUrl="asia" />
+      <Region name="Europe" regionUrl="europe" />
+      <Region name="Océanie" regionUrl="oceania" />
       <Footer />
     </div>
   );
