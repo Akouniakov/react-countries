@@ -2,13 +2,15 @@ import React from "react";
 
 interface IProps {
   name: string;
-  capital: string;
+  capital?: string;
+  flag?: string;
 }
 
-const Flag: React.FC<IProps> = (props) => {
+const Flag: React.FC<IProps> = ({ name, capital, flag }) => {
   return (
-    <div className="p-6 rounded-lg border w-full">
-      <h5 className="">{props.name}</h5>
+    <div className="rounded-lg border w-full">
+      <h5 className="hidden">{name}</h5>
+      <img className="object-fill" src={flag} />
     </div>
   );
 };
