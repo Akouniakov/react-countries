@@ -9,8 +9,8 @@ type RegionProps = {
 
 const Region: React.FC<RegionProps> = ({ name, regionUrl }) => {
   return (
-    <div className="container">
-      <h5>{name}</h5>
+    <div className="flex flex-col">
+      <h5 className="text-3xl font-bold text-center py-3">{name}</h5>
       <Flags region={regionUrl} />
     </div>
   );
