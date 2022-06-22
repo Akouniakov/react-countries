@@ -2,6 +2,12 @@
 
 Une app qui permet de lister tous les pays du monde avec leurs drapeaux et certaine information.
 
+### Utilisation : 
+
+```js
+npm install
+```
+
 ### StackDev :
 
 - React TSX
