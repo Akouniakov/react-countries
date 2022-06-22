@@ -7,7 +7,7 @@ function App() {
     <div className="">
       <Header />
       <Region name="Afrique" regionUrl="africa" />
-      <Region name="Amerérique" regionUrl="americas" />
+      <Region name="Amérique" regionUrl="americas" />
       <Region name="Asie" regionUrl="asia" />
       <Region name="Europe" regionUrl="europe" />
       <Region name="Océanie" regionUrl="oceania" />

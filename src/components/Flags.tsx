@@ -10,14 +10,14 @@ const Flags: React.FC<FlagsProps> = ({ region }) => {
   const [countries, setCountries] = useState<any[]>([]);
   useEffect(() => {
     const fetch = async () => {
-      const countries = await getCountryByRegion(`asia`);
+      const countries = await getCountryByRegion(region);
       setCountries(countries);
     };
     fetch();
   }, []);
 
   return (
-    <div className="px-4 grid grid-cols-3 gap-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-12">
+    <div className="px-4 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8">
       {countries.map((data, key) => (
         <Flag name={data.name.official} flag={data.flags.svg} />
       ))}
