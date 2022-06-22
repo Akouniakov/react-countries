@@ -8,9 +8,9 @@ interface IProps {
 
 const Flag: React.FC<IProps> = ({ name, capital, flag }) => {
   return (
-    <div className="rounded-lg border h-max w-full group">
-      <h5 className="hidden">{name}</h5>
-      <img className="object-cover group-hover:blur-lg" src={flag} />
+    <div className="group relative h-max w-full rounded-lg border-4 ">
+      <h5 className="z-10 hidden">{name}</h5>
+      <img className="z-0 object-cover group-hover:blur-lg" src={flag} />
     </div>
   );
 };
