@@ -3,11 +3,9 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div className="container bg-white-0 ">
-      <div className="flex w-screen">
-        <p className="font-bold ">REST Countries</p>
-        <SearchBar />
-      </div>
+    <div className=" bg-white-0 py-2 sticky top-0 flex items-center justify-between">
+      <p className="font-bold px-4">REST Countries</p>
+      <SearchBar />
     </div>
   );
 };
