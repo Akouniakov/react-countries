@@ -16,6 +16,15 @@ npm install
 
 ### Les branches :
 
-- # lvl1 :
-- # lvl2 :
-- # lvl3 :
+- #### lvl1 :
+
+- Afficher tous les drapeaux selon les régions
+- Dans chaque drapeau afficher les informations suivant : Nom pays + Capitale + Population
+
+- #### lvl2 :
+
+- Créer une barre de recherche
+
+- #### lvl3 :
+
+- Créer un theme light/dark
