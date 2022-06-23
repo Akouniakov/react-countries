@@ -2,7 +2,7 @@
 
 Une app qui permet de lister tous les pays du monde avec leurs drapeaux et certaine information.
 
-### Utilisation : 
+### Utilisation :
 
 ```js
 npm install
@@ -13,3 +13,9 @@ npm install
 - React TSX
 - Tailwind CSS
 - API [REST Countries](https://restcountries.com/#api-endpoints-v3)
+
+### Les branches :
+
+- # lvl1 :
+- # lvl2 :
+- # lvl3 :
