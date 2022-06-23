@@ -17,9 +17,14 @@ const Flags: React.FC<FlagsProps> = ({ region }) => {
   }, []);
 
   return (
-    <div className="px-4 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8">
+    <div className="grid grid-cols-1 gap-4 px-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
       {countries.map((data, key) => (
-        <Flag name={data.name.official} flag={data.flags.svg} />
+        <Flag
+          name={data.translations.fra.official}
+          flag={data.flags.svg}
+          capitale={data.capital}
+          population={data.population}
+        />
       ))}
     </div>
   );
