@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getCountryByRegion } from "../services/ServiceCountry";
 import Card from "./Card";
-import Flag from "./Flag";
 
 type FlagsProps = {
   region: string;
